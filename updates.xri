@@ -11,5 +11,12 @@
             <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v1.</p>
          </description>
       </package>
+      <package fileName="SyntheticLight_v2.zip" sha1="45ccfe917549aeb98dd662bd0f6c99e785f969de" type="script" releaseDate="20261110">
+         <title>Synthetic Light v2</title>
+         <description>
+            <p>Builds a synthetic monochrome luminance (Synthetic Light) from an RGB image or separate R, G, B masters using CFA, Rec.709 or custom weights, with optional background/scale normalization. v2 adds detailed tooltips with usage recommendations.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v2.</p>
+         </description>
+      </package>
    </platform>
 </xri>
