@@ -3,4 +3,13 @@
    <description>
       <p>DSM Test - development builds of DeepSkyMotion PixInsight scripts. Work in progress, not for general use.</p>
    </description>
+   <platform os="all" arch="noarch" version="1.9.4:1.9.99">
+      <package fileName="SyntheticLight_v1.zip" sha1="15fdd8eec57f44d831f73ab57470cbdb19ed5e00" type="script" releaseDate="20261110">
+         <title>Synthetic Light v1</title>
+         <description>
+            <p>Builds a synthetic monochrome luminance (Synthetic Light) from an RGB image or separate R, G, B masters using CFA, Rec.709 or custom weights, with optional background/scale normalization.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v1.</p>
+         </description>
+      </package>
+   </platform>
 </xri>
