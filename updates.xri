@@ -13,5 +13,12 @@ src/scripts/DSMTest/SyntheticLight_v3/</remove>
             <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
          </description>
       </package>
+      <package fileName="RingArtifactRemover_v2.zip" sha1="848b4c1f55019f9f0e1373a244e816004d6fd845" type="script" releaseDate="20261115">
+         <title>Ring Artifact Remover v2</title>
+         <description>
+            <p>Removes large-scale ring artifacts from internal reflections with a locally adaptive polar model that follows each ring's own shape.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Ring Artifact Remover v2.</p>
+         </description>
+      </package>
    </platform>
 </xri>
