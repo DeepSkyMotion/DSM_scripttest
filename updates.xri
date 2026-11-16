@@ -27,5 +27,12 @@ src/scripts/DSMTest/SyntheticLight_v3/</remove>
             <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v1.</p>
          </description>
       </package>
+      <package fileName="FlatStrengthCalibration_v2.zip" sha1="d604190e7beaf319b4302f34bb1528296b1b889c" type="script" releaseDate="20261116">
+         <title>Flat Strength Calibration v2</title>
+         <description>
+            <p>Calibrates lights per session with master darks and a self-built master flat, with an adjustable flat-correction strength (-1..+1) previewed before/after with linked or unlinked auto stretch.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v2.</p>
+         </description>
+      </package>
    </platform>
 </xri>
