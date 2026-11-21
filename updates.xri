@@ -34,5 +34,12 @@ src/scripts/DSMTest/SyntheticLight_v3/</remove>
             <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v2.</p>
          </description>
       </package>
+      <package fileName="SyntheticLight_v4.zip" sha1="df476cbb9a05bf5940462c1a526323c72e807dac" type="script" releaseDate="20261121">
+         <title>Synthetic Light v4</title>
+         <description>
+            <p>Builds a synthetic monochrome luminance from an RGB image or registered R, G, B masters; v4 adds the Deep Sky Motion branded header and SL feature icon.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v4.</p>
+         </description>
+      </package>
    </platform>
 </xri>
