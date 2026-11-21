@@ -4,15 +4,6 @@
       <p>DSM Test - development builds of DeepSkyMotion PixInsight scripts. Work in progress, not for general use.</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:1.9.99">
-      <package fileName="SyntheticLight_retired.zip" sha1="ab487be7b3a616de0d9a0f2f2a17e82525957494" type="script" releaseDate="20261110">
-         <title>SyntheticLight (development versions retired)</title>
-         <remove>src/scripts/DSMTest/SyntheticLight_v1/
-src/scripts/DSMTest/SyntheticLight_v2/
-src/scripts/DSMTest/SyntheticLight_v3/</remove>
-         <description>
-            <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
-         </description>
-      </package>
       <package fileName="RingArtifactRemover_v2.zip" sha1="848b4c1f55019f9f0e1373a244e816004d6fd845" type="script" releaseDate="20261115">
          <title>Ring Artifact Remover v2</title>
          <description>
@@ -34,11 +25,15 @@ src/scripts/DSMTest/SyntheticLight_v3/</remove>
             <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v2.</p>
          </description>
       </package>
-      <package fileName="SyntheticLight_v4.zip" sha1="df476cbb9a05bf5940462c1a526323c72e807dac" type="script" releaseDate="20261121">
-         <title>Synthetic Light v4</title>
+      <package fileName="SyntheticLight_retired.zip" sha1="3383a262d2a10a1952c289f896486ed89b1d2d1a" type="script" releaseDate="20261121">
+         <title>SyntheticLight (development versions retired)</title>
+         <remove>src/scripts/DSMTest/SyntheticLight_v1/
+src/scripts/DSMTest/SyntheticLight_v2/
+src/scripts/DSMTest/SyntheticLight_v3/
+src/scripts/DSMTest/SyntheticLight_v4/
+src/scripts/DSMTest/SyntheticLight_v5/</remove>
          <description>
-            <p>Builds a synthetic monochrome luminance from an RGB image or registered R, G, B masters; v4 adds the Deep Sky Motion branded header and SL feature icon.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v4.</p>
+            <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
          </description>
       </package>
    </platform>
