@@ -45,5 +45,12 @@ src/scripts/DSMTest/SmartFrameSelection_v3/</remove>
             <p>Removes the development versions of SmartFrameSelection from this PixInsight installation.</p>
          </description>
       </package>
+      <package fileName="FlatStrengthCalibration_v3.zip" sha1="9d967b198af124a4bb11440420ad4483928fac24" type="script" releaseDate="20261124">
+         <title>Flat Strength Calibration v3</title>
+         <description>
+            <p>Calibrates lights with per-session flats at an adjustable flat strength, now also set separately for the red, green and blue pixels of CFA frames.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v3.</p>
+         </description>
+      </package>
    </platform>
 </xri>
