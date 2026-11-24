@@ -36,25 +36,13 @@ src/scripts/DSMTest/SyntheticLight_v5/</remove>
             <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
          </description>
       </package>
-      <package fileName="SmartFrameSelection_v1.zip" sha1="579b82a3c443f0da38fd4038346cd7dc019455b1" type="script" releaseDate="20261124">
-         <title>Smart Frame Selection v1</title>
+      <package fileName="SmartFrameSelection_retired.zip" sha1="9db2e186953294e03b26e4b14cba37a05a86d358" type="script" releaseDate="20261124">
+         <title>SmartFrameSelection (development versions retired)</title>
+         <remove>src/scripts/DSMTest/SmartFrameSelection_v1/
+src/scripts/DSMTest/SmartFrameSelection_v2/
+src/scripts/DSMTest/SmartFrameSelection_v3/</remove>
          <description>
-            <p>Measures subframes in a central ROI (optionally on a single CFA channel) with SubframeSelector and selects the best frames automatically, by rules or by interactive review, exporting them with measurement metadata.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v1.</p>
-         </description>
-      </package>
-      <package fileName="SmartFrameSelection_v2.zip" sha1="918b71fddf459bbd2bdfbc5533d485e374f07d76" type="script" releaseDate="20261124">
-         <title>Smart Frame Selection v2</title>
-         <description>
-            <p>Measures subframes in a central ROI (CFA frames debayered with VNG, one channel at full resolution) with SubframeSelector and selects the best frames automatically, by a rule table or by interactive review.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v2.</p>
-         </description>
-      </package>
-      <package fileName="SmartFrameSelection_v3.zip" sha1="58456ee040b27e803b0cada086151702e50110db" type="script" releaseDate="20261124">
-         <title>Smart Frame Selection v3</title>
-         <description>
-            <p>Measures subframes in a central ROI (CFA frames debayered with VNG, one or all channels at full resolution) with SubframeSelector and selects the best frames automatically, by a rule table or by interactive review.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v3.</p>
+            <p>Removes the development versions of SmartFrameSelection from this PixInsight installation.</p>
          </description>
       </package>
    </platform>
