@@ -36,5 +36,12 @@ src/scripts/DSMTest/SyntheticLight_v5/</remove>
             <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
          </description>
       </package>
+      <package fileName="SmartFrameSelection_v1.zip" sha1="579b82a3c443f0da38fd4038346cd7dc019455b1" type="script" releaseDate="20261124">
+         <title>Smart Frame Selection v1</title>
+         <description>
+            <p>Measures subframes in a central ROI (optionally on a single CFA channel) with SubframeSelector and selects the best frames automatically, by rules or by interactive review, exporting them with measurement metadata.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v1.</p>
+         </description>
+      </package>
    </platform>
 </xri>
