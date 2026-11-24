@@ -52,5 +52,12 @@ src/scripts/DSMTest/SmartFrameSelection_v3/</remove>
             <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v3.</p>
          </description>
       </package>
+      <package fileName="FlatStrengthCalibration_v4.zip" sha1="05cb8f88f1b4518e3c5c354f6d282da18b559bc5" type="script" releaseDate="20261124">
+         <title>Flat Strength Calibration v4</title>
+         <description>
+            <p>Calibrates lights with per-session flats at an adjustable, optionally per-CFA-channel flat strength, with shared master darks and shared or per-session output folders.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v4.</p>
+         </description>
+      </package>
    </platform>
 </xri>
