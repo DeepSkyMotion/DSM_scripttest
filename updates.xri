@@ -50,5 +50,12 @@ src/scripts/DSMTest/SyntheticLight_v5/</remove>
             <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v2.</p>
          </description>
       </package>
+      <package fileName="SmartFrameSelection_v3.zip" sha1="58456ee040b27e803b0cada086151702e50110db" type="script" releaseDate="20261124">
+         <title>Smart Frame Selection v3</title>
+         <description>
+            <p>Measures subframes in a central ROI (CFA frames debayered with VNG, one or all channels at full resolution) with SubframeSelector and selects the best frames automatically, by a rule table or by interactive review.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v3.</p>
+         </description>
+      </package>
    </platform>
 </xri>
