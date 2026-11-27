@@ -11,13 +11,6 @@
             <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v6.</p>
          </description>
       </package>
-      <package fileName="SmartFrameSelection_v4.zip" sha1="22449eb61ab7fa2877c48fa4dca32ac9aede6014" type="script" releaseDate="20261127">
-         <title>Smart Frame Selection v4</title>
-         <description>
-            <p>Measures subframes in a central ROI with SubframeSelector and selects the best frames; v4 keeps the report on export failures, keeps the copy-unchanged choice and refuses mixed frame groups.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v4.</p>
-         </description>
-      </package>
       <package fileName="SyntheticLight_retired.zip" sha1="2cc2be91582519350a4ec23fa8e9721a923eb27f" type="script" releaseDate="20261127">
          <title>SyntheticLight (development versions retired)</title>
          <remove>src/scripts/DSMTest/SyntheticLight_v1/
@@ -28,6 +21,16 @@ src/scripts/DSMTest/SyntheticLight_v5/
 src/scripts/DSMTest/SyntheticLight_v6/</remove>
          <description>
             <p>Removes the development versions of SyntheticLight from this PixInsight installation.</p>
+         </description>
+      </package>
+      <package fileName="SmartFrameSelection_retired.zip" sha1="66a1692692b456159da5220530b9d9d0af08b2e5" type="script" releaseDate="20261127">
+         <title>SmartFrameSelection (development versions retired)</title>
+         <remove>src/scripts/DSMTest/SmartFrameSelection_v1/
+src/scripts/DSMTest/SmartFrameSelection_v2/
+src/scripts/DSMTest/SmartFrameSelection_v3/
+src/scripts/DSMTest/SmartFrameSelection_v4/</remove>
+         <description>
+            <p>Removes the development versions of SmartFrameSelection from this PixInsight installation.</p>
          </description>
       </package>
    </platform>
