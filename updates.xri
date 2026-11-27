@@ -4,11 +4,11 @@
       <p>DSM Test - PixInsight scripts by DeepSkyMotion.</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:1.9.99">
-      <package fileName="SyntheticLight_v6.zip" sha1="d9cfc383883d0947dd9af8db11525592b1b91583" type="script" releaseDate="20261127">
-         <title>Synthetic Light v6</title>
+      <package fileName="SmartFrameSelection_v4.zip" sha1="22449eb61ab7fa2877c48fa4dca32ac9aede6014" type="script" releaseDate="20261127">
+         <title>Smart Frame Selection v4</title>
          <description>
-            <p>Builds a synthetic monochrome luminance from an RGB image or registered R, G, B masters; v6 removes the no-op Match backgrounds option.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v6.</p>
+            <p>Measures subframes in a central ROI with SubframeSelector and selects the best frames; v4 keeps the report on export failures, keeps the copy-unchanged choice and refuses mixed frame groups.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Smart Frame Selection v4.</p>
          </description>
       </package>
    </platform>
