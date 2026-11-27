@@ -4,13 +4,6 @@
       <p>DSM Test - PixInsight scripts by DeepSkyMotion.</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:1.9.99">
-      <package fileName="FlatStrengthCalibration_v6.zip" sha1="29aaba49cc7f554033c55e8a53580fca3a675796" type="script" releaseDate="20261127">
-         <title>Flat Strength Calibration v6</title>
-         <description>
-            <p>Calibrates lights with per-session flats at an adjustable flat strength; v6 fixes the dark/bias help text, removes dark optimization, keeps zero flat pixels at zero and integrates CFA flats per channel.</p>
-            <p>Menu: Script &gt; DSM Test &gt; Flat Strength Calibration v6.</p>
-         </description>
-      </package>
       <package fileName="SyntheticLight_retired.zip" sha1="2cc2be91582519350a4ec23fa8e9721a923eb27f" type="script" releaseDate="20261127">
          <title>SyntheticLight (development versions retired)</title>
          <remove>src/scripts/DSMTest/SyntheticLight_v1/
@@ -31,6 +24,18 @@ src/scripts/DSMTest/SmartFrameSelection_v3/
 src/scripts/DSMTest/SmartFrameSelection_v4/</remove>
          <description>
             <p>Removes the development versions of SmartFrameSelection from this PixInsight installation.</p>
+         </description>
+      </package>
+      <package fileName="FlatStrengthCalibration_retired.zip" sha1="6b7dd0abd525460498e868656b326bf4c3f5dd77" type="script" releaseDate="20261127">
+         <title>FlatStrengthCalibration (development versions retired)</title>
+         <remove>src/scripts/DSMTest/FlatStrengthCalibration_v1/
+src/scripts/DSMTest/FlatStrengthCalibration_v2/
+src/scripts/DSMTest/FlatStrengthCalibration_v3/
+src/scripts/DSMTest/FlatStrengthCalibration_v4/
+src/scripts/DSMTest/FlatStrengthCalibration_v5/
+src/scripts/DSMTest/FlatStrengthCalibration_v6/</remove>
+         <description>
+            <p>Removes the development versions of FlatStrengthCalibration from this PixInsight installation.</p>
          </description>
       </package>
    </platform>
