@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>DSM Test - PixInsight scripts by DeepSkyMotion.</p>
+   </description>
+   <platform os="all" arch="noarch" version="1.9.4:1.9.99">
+      <package fileName="SyntheticLight_v6.zip" sha1="d9cfc383883d0947dd9af8db11525592b1b91583" type="script" releaseDate="20261127">
+         <title>Synthetic Light v6</title>
+         <description>
+            <p>Builds a synthetic monochrome luminance from an RGB image or registered R, G, B masters; v6 removes the no-op Match backgrounds option.</p>
+            <p>Menu: Script &gt; DSM Test &gt; Synthetic Light v6.</p>
+         </description>
+      </package>
+   </platform>
+</xri>
